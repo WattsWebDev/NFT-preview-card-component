@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://wattswebdev.github.io/NFT-preview-card-component/)
 
 ## My process
 
@@ -40,8 +40,6 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
 - Flexbox
 - Mobile-first workflow
 
@@ -91,8 +89,4 @@ I want to continue to learn how to incoperate cool effects in my webpages using 
 ## Author
 
 - Website - [Jakia Watts](https://wattswebdev.github.io/my-portfolio/)
-- Frontend Mentor - [@WattsWebDev](https://www.frontendmentor.io/profile/WattsWebDev)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- Frontend Mentor - [@WattsWebDev](https://www.frontendmentor.io/profile/
