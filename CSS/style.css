@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card-wrapper  {
+    background-color: hsl(216, 50%, 16%);
+    height: 585px;
+    width: 340px;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.main-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+ .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 99%;
+    width: 100%;  
+    opacity: 0;
+  }
+
+.overlay:hover {
+    opacity: 0.5;
+    background-color: hsl(178, 100%, 50%);
+    cursor: pointer;
+    transition: .5s ease;
+    border-radius: 8px;
+  }
+  
+.overlay:hover .eye-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    opacity: 1;
+  }
+
+.title-info h1 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 5% 0 3% 0;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.title-info p {
+    font-size: 18px;
+    color:  hsl(215, 51%, 70%);
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 5% 0 3% 0;
+}
+
+.info {
+    display: inline-flex;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    word-spacing: 2%;
+}
+
+.price-info {
+    color: hsl(178, 100%, 50%);
+    margin-right: 32%;
+}
+
+.price-info img {
+    margin-right: 5px;
+}
+
+.time-info {
+    color: hsl(215, 51%, 70%);
+}
+
+.time-info img {
+  margin-right: 5px;
+}
+
+.creator-info {
+    display: flex;
+    margin-top: 7%;
+    align-items: center;
+}
+
+.creator-info p span {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.creator-info p {
+    color: white;
+    font-weight: 300;
+    word-spacing: 1px;
+    vertical-align: center;
+}
+ 
+.creator-info p:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.creator-img{
+    width: 32px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+    margin-right: 8px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and  (max-width:375px) {
+    .card-container {
+        min-height: 100%;
+    } 
+
+    .image-container {
+        position: relative;
+        width: 100%;
+    }
+    
+     .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 99%;
+        width: 100%;  
+        opacity: 0;
+      }
+    
+    .overlay:hover {
+        opacity: 0.5;
+        background-color: hsl(178, 100%, 50%);
+        cursor: pointer;
+        transition: .5s ease;
+        border-radius: 8px;
+      }
+       
+    .overlay:hover .eye-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center; 
+        opacity: 1;
+      }
+}
